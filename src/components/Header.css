@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  .header h2 {
+    margin: 0;
+  }
+  
+  .trip-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .icon {
+    margin-left: 10px;
+  }
+  

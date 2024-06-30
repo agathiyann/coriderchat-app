@@ -1,0 +1,43 @@
+.input-bar {
+  background-color: white;
+  padding: 1rem;
+  
+  align-items: center;
+}
+
+.input-field {
+  margin-right: 1rem;
+  border-radius: 20px;
+}
+
+.attachment-menu {
+  margin-right: 1rem;
+  display: flex;
+}
+
+.attachment-list {
+  background-color: green;
+  border-radius: 99px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 0;
+  display: flex;
+}
+
+.attachment-icons {
+  background-color: green;
+  align-items: center;
+  display: flex;
+}
+
+.attachment-icons button {
+  background-color: transparent;
+}
+
+.attachment-icons button:hover {
+  background-color: #68D391;
+}
+
+.attachment-icons button:active {
+  background-color: #0C7D5A;
+}
+
