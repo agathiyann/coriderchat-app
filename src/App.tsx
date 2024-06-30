@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Box, Typography, List, ListItem, Paper, IconButton } from '@mui/material';
 import Header from './components/Header';
 import InputBar from './components/InputBar';
-import { FcFullTrash } from "react-icons/fc";
+import { RxCross2 } from "react-icons/rx";
 
 interface Message {
   id: number;
@@ -35,7 +35,7 @@ const App: React.FC = () => {
               <Paper sx={{ p: 2, width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderRadius:'20px' }}>
                 <Typography variant="body1">{msg.text}</Typography>
                 <IconButton aria-label="delete" onClick={() => deleteMessage(msg.id)}>
-                <FcFullTrash />
+                <RxCross2 />
                 </IconButton>
               </Paper>
             </ListItem>
